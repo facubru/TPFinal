@@ -31,14 +31,14 @@ p  { font-size: 16px; }
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 70vh;
+    height: 30vh;
     background-color: rgb(41, 132, 181);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    justify-content: center;
 
 }
 li { font-size: 16px; }
@@ -76,15 +76,15 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 80vh;
+    height: 60vh;
     background-color: rgb(41, 132, 181);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-}
+ }
+
 .carta {
     display: flex;
     gap: 20px;
@@ -100,4 +100,41 @@ button:hover {
     text-align: center;
     flex-direction: column;
     align-items: center;
+}
+footer {
+    background-color: rgb(41, 132, 181);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgb(12, 68, 91);
+}
+.sectioncuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: rgb(41, 132, 181);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.conteiner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+
 }
