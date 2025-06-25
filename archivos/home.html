@@ -2,14 +2,15 @@
 <html lang="es">
 <head>
     <title> Home </title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
+<main>
     <header>
         <div class="header-container">
             <h1>Gitaneando VM </h1>
             <nav>
-                <ul>
+                <ul class="menu-de-nav">
                     <li><a href="home.html"> Inicio </a></li>
                     <li><a href="sn.html"> Sobre Nosotros </a></li>
                     <li><a href="login.html"> Iniciar sesion </a></li>
@@ -17,7 +18,7 @@
             </nav>
         </div>
     </header>
-    <section class="sectionsec">
+    <section class="sectionprinc container">
         <h2> ¿Qué es Gitaneando VM? </h2>
             <div class="descripcion">
                 <div class="img-pri"></div>
@@ -26,35 +27,41 @@
             </div> 
     </section> 
     
-    <section class="sectiontre">
+    <section class="sectionprinc container">
         <h2> ¿Cómo funciona? </h2>
         <p> Puedes registrarte como vendedor o comprador. Una vez registrado, puedes listar tus artículos para la venta o buscar productos que te interesen.</p>
         <p> Nuestro sistema de mensajería te permite comunicarte directamente con los vendedores o compradores para negociar precios y detalles de entrega.</p>
     </section>
  
-    <section class="sectionpri">
+    <section class="section-ventas container">
         <h2> Nuestros Servicios </h2>
             <div class="carta"> 
                 <h3> Vender </h3>
                 <p> Si tienes artículos que ya no usas, puedes venderlos fácilmente. Simplemente crea un anuncio con fotos y una descripción del producto.</p>
                 <p> Los compradores interesados podrán contactarte directamente a través de nuestra plataforma.</p>
-                <button><a href="venta.html"> Vender Aqui </a> </button>
+                <button class="botones"><a href="venta.html"> Vender Aqui </a> </button>
             </div>
 
             <div class="carta">
                 <h3> Comprar </h3>
                 <p> Si estás buscando algo específico, puedes navegar por los anuncios de otros usuarios.
                 Puedes filtrar por categoría, precio y ubicación para encontrar lo que necesitas.</p>
-                <button><a href="compra.html"> Comprar Aqui </a> </button>
-
+                <p> Una vez que encuentres un artículo que te interese, puedes contactar al vendedor para hacer una oferta o preguntar por más detalles.</p>
+                <button class="botones"><a href="compra.html"> Comprar Aqui </a> </button>
             </div>
     </section>
-
-
-    <div>
+    <section class="sectioncuatro container">
+        <h2> ¿Por qué elegir Gitaneando VM? </h2>
+        <p> Nuestra plataforma es fácil de usar y está diseñada para facilitar el comercio de segunda mano. 
+        Promovemos un consumo responsable y sostenible, ayudando a reducir el desperdicio y fomentar la reutilización de productos.</p>
+        <p> Además, ofrecemos un sistema de calificaciones para que puedas confiar en los vendedores y compradores con los que interactúas.</p>
+    </section>
+</main>    
         <footer>
-            <p> © 2023 Gitaneando VM. Todos los derechos reservados. </p>
-            <p> Contacto: Facu y Lauti
+            <div class="carta">
+                <p> © 2023 Gitaneando VM. Todos los derechos reservados. </p>
+                <p> Contáctanos: <a href="sn.html"> Aqui </a>
+            </div>
         </footer>
     </div>
 </body>
