@@ -1,50 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <h1>Compras</h1>
-    <nav>
-        <ul>
-            <li><a href="home.html">Volver</a></li>
-        </ul>
-        <section class="compra1">
-            <div>
-                <img src="../imagenes/auto.jpg"
-                width="400"
-                height="300"
-                alt="Auto"></div>
+    <header>
+        <div class="header-container">
+            <h1>Gitaneando VM</h1>
+            <nav>
+                <ul class="menu-de-nav">
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="sn.html">Sobre Nosotros</a></li>
+                    <li><a href="login.html">Iniciar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="compras-titulo">Compras</h1>
+        <section class="compras">
+            <div class="producto">
+                <img src="../imagenes/auto.jpg" width="400" height="300" alt="Auto">
+                <div class="producto-info">
+                    <h3>Auto usado en buen estado</h3>
+                    <p>Modelo 2012, 120.000 km, único dueño. Papeles al día.</p>
+                    <p><strong>Contacto:</strong> Juan Pérez - juanperez@email.com</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="../imagenes/bici.jpg" width="400" height="300" alt="Bici">
+                <div class="producto-info">
+                    <h3>Bicicleta de montaña</h3>
+                    <p>Rodado 29, frenos a disco, poco uso. Incluye casco.</p>
+                    <p><strong>Contacto:</strong> Laura Gómez - laura.gomez@email.com</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="../imagenes/mesa.jpg" width="400" height="300" alt="Mesa">
+                <div class="producto-info">
+                    <h3>Mesa de madera</h3>
+                    <p>Mesa para comedor, 1,80m x 0,90m, excelente estado.</p>
+                    <p><strong>Contacto:</strong> Carlos Ruiz - carlosruiz@email.com</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="../imagenes/mouse.jpg" width="300" height="400" alt="Mouse">
+                <div class="producto-info">
+                    <h3>Mouse inalámbrico</h3>
+                    <p>Marca Logitech, incluye pilas nuevas, poco uso.</p>
+                    <p><strong>Contacto:</strong> Sofía Martínez - sofia.martinez@email.com</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="../imagenes/termo.jpg" width="300" height="350" alt="Termo">
+                <div class="producto-info">
+                    <h3>Termo de acero inoxidable</h3>
+                    <p>Capacidad 1 litro, mantiene la temperatura 12hs.</p>
+                    <p><strong>Contacto:</strong> Pablo Fernández - pablof@email.com</p>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="../imagenes/yerba.jpg" width="300" height="400" alt="Yerba">
+                <div class="producto-info">
+                    <h3>Yerba mate premium</h3>
+                    <p>Paquete de 1kg, sin TACC, sabor intenso.</p>
+                    <p><strong>Contacto:</strong> Mariana López - mariana.lopez@email.com</p>
+                </div>
+            </div>
         </section>
-
-            <div class="compra2"></div>
-                <img src="../imagenes/bici.jpg" 
-                width="400"
-                height="300"
-                alt="Bici">
-            <div class="compra3"></div>
-                <img src="../imagenes/mesa.jpg" 
-                width="400"
-                height="300"
-                alt="Mesa">
-            <div class="compra4"></div>
-                <img src="../imagenes/mouse.jpg" 
-                width="300"
-                height="400"
-                alt="Mouse">
-            <div class="compra5"></div>
-                <img src="../imagenes/termo.jpg" 
-                width="300"
-                height="350"
-                alt="Termo">
-            <div class="compra6"></div>
-                <img src="../imagenes/yerba.jpg" 
-                width="300"
-                height="400"
-                alt="Yerba">
-        </section>
-    </nav>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>© 2023 Gitaneando VM. Todos los derechos reservados.</p>
+            <p>Contáctanos: <a href="sn.html">Aqui</a></p>
+        </div>
+    </footer>
 </body>
 </html>
