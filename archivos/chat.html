@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Argento</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Gitaneando VM</h1>
+            <nav>
+                <ul class="menu-de-nav">
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="sn.html">Sobre Nosotros</a></li>
+                    <li><a href="login.html">Iniciar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="compras-titulo"> Chat </h1>
+        <div class="chat-container">
+            <div class="mensaje usuario">
+                <div class="burbuja">¡Hola! ¿Cómo estás? Quería saber si la yerba mate premium es suave o fuerte, y si viene en paquete de 1kg.</div>
+            </div>
+            <div class="mensaje">
+                <div class="burbuja">
+                    ¡Hola capo! Mirá, mejor te lo explico por audio así te queda más claro.
+                </div>
+            </div>
+            <div class="mensaje">
+                <audio controls>
+                    <source src="../audios/yerbaaudio.mp3.opus" type="audio/mp3">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+            <div class="mensaje usuario">
+                <div class="burbuja">¡Genial, gracias! Ahora sí me quedó clarísimo. Después te escribo para coordinar la compra.</div>
+            </div>
+            <div class="mensaje">
+                <div class="burbuja">¡Dale, cualquier cosa avisame! Abrazo grande.</div>
+            </div>
+            <div class="chat-input-fake">
+                <input type="text" placeholder="Escribí tu mensaje...">
+                <button> Enviar </button> 
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>© 2023 Gitaneando VM. Todos los derechos reservados.</p>
+            <p>Contáctanos: <a href="sn.html">Aqui</a></p>
+        </div>
+    </footer>
+</body>
+</html>
