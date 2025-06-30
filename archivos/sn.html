@@ -4,40 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nosotros | Gitaneando VM</title>
-    <link rel="stylesheet" href="../css/styles.css">a
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <h1>Sobre Nosotros</h1>
-    <nav>
-        <ul>
-            <li><a href="home.html">Volver</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>¿Quiénes somos?</h2>
-        <p>Somos un equipo formado por 2 personas con la misión de formar un sitio en el que el comercio de segunda mano sea fácil, seguro y rápido.</p>
-        <div class="equipo-container">
-            <div class="persona-card">
-                <h2>Facundo Torres</h2>
-                <p>Mi nombre es Facundo Torres, tengo 22 años, soy oriundo de la localidad de Nueva Galia y estudio programación. Me gusta mucho el fútbol y el LoL. Propietario y CEO de Gitaneando VM.</p>
-                <img src="../imagenes/facu.jpg" alt="Foto de Facundo Torres" class="foto-persona">
-            </div>
-            <div class="persona-card">
-                <h2>Lautaro Marchissio</h2>
-                <p>Mi nombre es Lautaro Marchissio, tengo 22 años, soy oriundo de la localidad de Villa Mercedes, estudio programación en la UNViMe, me gusta mucho el fútbol, el LoL y el Counter. Propietario y CEO de Gitaneando VM.</p>
-                <img src="../imagenes/lau.jpg" alt="Foto de Lautaro Marchissio" class="foto-persona">
-            </div>
+    <header>
+        <div class="header-container">
+            <h1>Gitaneando VM</h1>
+            <nav>
+                <ul class="menu-de-nav">
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="sn.html">Sobre Nosotros</a></li>
+                    <li><a href="login.html">Iniciar sesión</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
-    <section>
-        <h2>¿Por qué hacemos esto?</h2>
-        <p>Porque creemos que es una forma sostenible de consumir, y queremos facilitar este proceso a todos los usuarios.</p>
-        <h2>¿Qué ofrecemos?</h2>
-        <p>Ofrecemos una plataforma donde puedes comprar y vender artículos de segunda mano de manera sencilla. Nuestro objetivo es conectar a vendedores y compradores para que puedan intercambiar productos de forma segura.</p>
-        <h2>Contacto</h2>
-        <p>Si tienes alguna pregunta o sugerencia, no dudes en contactarnos a través de nuestro correo electrónico:
-        <br> <a href="mailto:facubru03@gmail.com">Correo Facundo</a>
-        <br> <a href="mailto:laumarchissio@gmail.com">Correo Lautaro</a></p>
-    </section>
+    </header>
+    <main>
+        <section class="presentacion-equipo">
+            <h2 class="subtitulo-sobre-nosotros">¿Quiénes somos?</h2>
+            <div class="equipo-cards">
+                <!-- Persona 1 -->
+                <div class="equipo-card">
+                    <div class="equipo-foto">
+                        <img src="../imagenes/facu.jpg" alt="Facundo Torres">
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Facundo Torres</h3>
+                        <p>Desarrollador web y apasionado por la tecnología. Me encargo de la programación y el diseño de Gitaneando VM. Siempre buscando nuevas ideas para mejorar la experiencia de nuestros usuarios.</p>
+                        <p class="equipo-contacto">facundo.torres@email.com</p>
+                    </div>
+                </div>
+                <!-- Persona 2 -->
+                <div class="equipo-card">
+                    <div class="equipo-foto">
+                        <img src="../imagenes/lau.jpg" alt="Sofía Martínez">
+                    </div>
+                    <div class="equipo-info">
+                        <h3> Lautaro Marccissio </h3>
+                        <p>Especialista en comunicación y atención al cliente. Me encargo de conectar a los usuarios y brindar soporte en cada paso. Mi objetivo es que cada experiencia en Gitaneando VM sea única y positiva.</p>
+                        <p class="equipo-contacto">lau.marccissio@email.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+   <footer class="footer">
+        <div>
+            <p>© 2023 Gitaneando VM. Todos los derechos reservados.</p>
+            <p>Contáctanos: <a href="sn.html">Aqui</a></p>
+        </div>
+    </footer>
 </body>
 </html>
