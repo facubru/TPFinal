@@ -5,20 +5,24 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #f8fafc;
     color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
-    color: #2980b9;
     text-decoration: none;
-    transition: color 0.2s;
 }
 
 a:hover {
-    color: #1abc9c;
     text-decoration: none;
 }
 
@@ -53,6 +57,7 @@ a:hover {
 
 /* ----------- Main y secciones ----------- */
 main {
+    flex: 1 0 auto;
     max-width: 1200px;
     margin: 0 auto;
     padding: 32px 16px 0 16px;
