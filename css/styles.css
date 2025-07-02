@@ -166,27 +166,20 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    text-align: center;
 }
-
 .carta .botones {
     background: #1abc9c;
-    color: #fff;
     border: none;
     border-radius: 8px;
     padding: 10px 22px;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.2s;
 }
 
 .carta .botones:hover {
     background: #2980b9;
-}
-
-.carta .botones a {
-    color: #fff;
-    text-decoration: none;
 }
 
 /* Cartas de servicios: fondo blanco y texto oscuro */
@@ -278,7 +271,7 @@ footer a {
     font-weight: bold;
 }
 footer a:hover {
-    color: #fff;
+    color: #fff; 
     text-decoration: none;
 }
 
@@ -505,4 +498,79 @@ footer a:hover {
     .equipo-card {
         width: 95vw;
     }
+}
+
+/* ----------- Formulario ----------- */
+.form-container {
+    max-width: 370px;
+    margin: 60px auto 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(41,132,181,0.10);
+    padding: 36px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    color: #2980b9;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.form-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="text"] {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #b6d4e7;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.form-container input:focus {
+    border: 1.5px solid #1abc9c;
+}
+
+.btn-form {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.btn-form:hover {
+    background: #2980b9;
+}
+
+.form-link {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 1rem;
+}
+.form-link a {
+    color: #1abc9c;
+    font-weight: bold;
+    text-decoration: none;
+}
+.form-link a:hover {
+    color: #2980b9;
 }
